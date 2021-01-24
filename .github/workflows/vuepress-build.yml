@@ -1,0 +1,10 @@
+name: Build
+on: [pull_request]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v1
+    - run: npm ci # Equivalent to npm install
+    - run: npm run build
