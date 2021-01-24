@@ -23,7 +23,7 @@
 
   ## Transfer Team
 
-  By default, Jetstream only allows a team to have a signle owner, if the owner wasnts to leave the team they will need to delete it.
+  By default, Jetstream only allows a team to have a signle owner, if the owner wants to leave the team they will need to delete it.
 
   However, you can now allow team owner's to transfer ownership to another user with the `administrator` role.
 
