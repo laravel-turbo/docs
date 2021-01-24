@@ -1,22 +1,14 @@
-const { description } = require('../../package')
+const { description } = require('../package');
 
 module.exports = {
-  /**
-   * Ref：https://v1.vuepress.vuejs.org/config/#title
-   */
   title: 'Laravel Turbo',
-  base: '/',
-  /**
-   * Ref：https://v1.vuepress.vuejs.org/config/#description
-   */
   description: description,
 
-  /**
-   * Extra tags to be injected to the page HTML `<head>`
-   *
-   * ref：https://v1.vuepress.vuejs.org/config/#head
-   */
+  base: '/',
+  dest: './site',
+
   head: [
+    ['link', { rel: 'icon', href: '/logo.svg' }],
     ['meta', { name: 'theme-color', content: '#3eaf7c' }],
     ['meta', { name: 'apple-mobile-web-app-capable', content: 'yes' }],
     ['meta', { name: 'apple-mobile-web-app-status-bar-style', content: 'black' }]
@@ -34,10 +26,10 @@ module.exports = {
 
     repo: 'laravel-turbo',
     docsRepo: 'laravel-turbo/docs',
-    docsDir: '',
+    docsBranch: 'main',
     editLinks: true,
     editLinkText: 'Help us improve this page!',
-    lastUpdated: false,
+    lastUpdated: true,
     nav: [
       {
         text: 'Docs',

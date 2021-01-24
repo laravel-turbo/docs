@@ -1,6 +1,6 @@
 {
-  "name": "docs",
-  "version": "0.0.1",
+  "name": "laravel-turbo-docs",
+  "version": "1.0.0",
   "description": "Laravel Turbo Docs",
   "main": "index.js",
   "authors": {
@@ -9,8 +9,8 @@
   },
   "repository": "laravel-turbo/docs",
   "scripts": {
-    "docs:dev": "vuepress dev docs",
-    "docs:build": "vuepress build docs"
+    "start": "vuepress dev",
+    "build": "vuepress build"
   },
   "license": "MIT",
   "devDependencies": {
