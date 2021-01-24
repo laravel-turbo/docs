@@ -5,6 +5,7 @@ module.exports = {
    * Ref：https://v1.vuepress.vuejs.org/config/#title
    */
   title: 'Laravel Turbo',
+  base: '/',
   /**
    * Ref：https://v1.vuepress.vuejs.org/config/#description
    */
@@ -27,10 +28,15 @@ module.exports = {
    * ref：https://v1.vuepress.vuejs.org/theme/default-theme-config.html
    */
   themeConfig: {
+    displayAllHeaders: true,
+    activeHeaderLinks: false,
+    searchPlaceholder: 'Press / to search',
+
     repo: 'laravel-turbo',
-    editLinks: false,
+    docsRepo: 'laravel-turbo/docs',
     docsDir: '',
-    editLinkText: '',
+    editLinks: true,
+    editLinkText: 'Help us improve this page!',
     lastUpdated: false,
     nav: [
       {
