@@ -3,7 +3,7 @@
 Getting started with Jetstream Turbo is simple. With a simple two-step process to get you on your way. Inspired by the simplicity of Jetstream's installation process, Jetstream Turbo follows the same `installation` process:
 
   ```bash
-    composer require laravel-turbo/jetstream-trubo
+    composer require laravel-turbo/jetstream-turbo
     php artisan jetstream:install
   ```
 
